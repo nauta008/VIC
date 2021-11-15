@@ -78,6 +78,8 @@ plugin_print_options(plugin_option_struct *op)
             op->IRRIGATION ? "true" : "false");
     fprintf(LOG_DEST, "\tWOFOST               : %s\n",
             op->WOFOST ? "true" : "false");
+    fprintf(LOG_DEST, "\tGROUNDWATER          : %s\n",
+            op->GROUNDWATER ? "true" : "false");
 
     fprintf(LOG_DEST, "\tFORCE_ROUTING        : %s\n",
             op->FORCE_ROUTING ? "true" : "false");

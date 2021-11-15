@@ -150,6 +150,9 @@ plugin_start(void)
     if (plugin_options.WOFOST) {
         crop_start();
     }
+    if (plugin_options.GROUNDWATER) {
+        groundwater_start();
+    }
 }
 
 /******************************************

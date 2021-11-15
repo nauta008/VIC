@@ -1,7 +1,7 @@
 /******************************************************************************
  * @section DESCRIPTION
  *
- * Plugin header file which combines all plugins
+ * groundwater start functions
  *
  * @section LICENSE
  *
@@ -24,17 +24,14 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *****************************************************************************/
 
-#ifndef PLUGIN_H
-#define PLUGIN_H
+#include <vic_driver_image.h>
+#include <plugin.h>
 
-#include <plugin_driver_shared_image.h>
-#include <landuse.h>
-#include <routing.h>
-#include <efr.h>
-#include <dams.h>
-#include <wateruse.h>
-#include <irrigation.h>
-#include <crop.h>
-#include <groundwater.h>
-
-#endif /* PLUGIN_H */
+/******************************************
+* @brief   Start groundwater routine
+******************************************/
+void
+groundwater_start(void){
+    
+    log_info("Groundwater Plugin started");
+}

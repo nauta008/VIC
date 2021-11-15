@@ -225,6 +225,7 @@ typedef struct {
     bool WATERUSE;                      /**< water-use module flag */
     bool IRRIGATION;                    /**< irrigation module flag */
     bool WOFOST;                        /**< wofost module flag */
+    bool GROUNDWATER;                   /**< modflow module flag */
 
     short unsigned int UH_LENGTH;       /**< routing sub-step (unit-hydrograph) length */
     bool FORCE_ROUTING;                 /**< routing (inflow) forcing flag */
